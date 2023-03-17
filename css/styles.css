@@ -140,7 +140,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
-  color: var(--navy-blue-color);
+  color: var(--slate-color);
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--transition-type);
@@ -197,7 +197,8 @@ img {
   transition-timing-function: var(--transition-type);
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background-color: var(--ocean-color);
 }
 
@@ -392,7 +393,7 @@ img {
   fill: var(--light-slate-color);
   border: 1px solid var(--light-slate-color);
   border-radius: 4px;
-  transition-property: border-color;
+  transition-property: border-color, fill;
   transition-duration: 250ms;
   transition-timing-function: var(--transition-type);
 }
@@ -727,7 +728,6 @@ span.white {
 .close-button:hover,
 .close-button:focus {
   background-color: var(--ocean-color);
-  border: none;
 }
 
 .close-button-icon {
