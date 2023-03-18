@@ -818,14 +818,6 @@ span.white {
   fill: var(--iris-color);
 }
 
-.input-text {
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
-  color: var(--light-slate-color);
-  margin-bottom: 8px;
-}
-
 .modal-textarea {
   display: block;
   width: 100%;
