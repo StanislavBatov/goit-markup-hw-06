@@ -788,7 +788,6 @@ span.white {
 .modal-input:focus {
   outline: none;
   border: 1px solid var(--iris-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .modal-input::placeholder {
@@ -826,7 +825,7 @@ span.white {
   line-height: 1.16;
   letter-spacing: 0.04em;
   color: var(--light-slate-color);
-  border: 1px solid var(--navy-blue-color);
+  border: 1px solid var(--light-slate-color);
   border-radius: 4px;
   padding: 8px 2px 0 16px;
   resize: none;
@@ -840,7 +839,6 @@ span.white {
 .modal-textarea:focus {
   outline: none;
   border: 1px solid var(--iris-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .terms-acces {
